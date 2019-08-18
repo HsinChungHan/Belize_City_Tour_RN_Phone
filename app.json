@@ -23,7 +23,7 @@
     "android": {
       "package": "com.ICDF.BelizeCityTourGuide.IPhone",
       "permissions": [],
-      "versionCode": 4
+      "versionCode": 5
     }
   }
 }
