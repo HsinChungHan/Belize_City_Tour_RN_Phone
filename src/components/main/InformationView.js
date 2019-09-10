@@ -54,7 +54,7 @@ export default class InformationView extends Component {
               style={styles.icon}
               resizeMode="contain"
             />
-            <Text style={styles.titleText} numberOfLines={0}>
+            <Text style={styles.titleText} numberOfLines={1}>
               {this.props.item.englishName}
             </Text>
           </View>
@@ -64,7 +64,7 @@ export default class InformationView extends Component {
               style={styles.icon}
               resizeMode="contain"
             />
-            <Text style={styles.subTitleText}>
+            <Text style={styles.subTitleText} numberOfLines={1}>
               {this.props.item.openingTime}
             </Text>
           </View>

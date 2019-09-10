@@ -32,7 +32,8 @@ export default class WelcomScene extends Component {
   }
 
   goToMainScene = () => {
-    this.props.navigation.navigate('TabBar');
+    // this.props.navigation.navigate('TabBar');
+    this.props.navigation.navigate('Main');
   };
   render() {
     return (
